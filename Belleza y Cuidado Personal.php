@@ -265,11 +265,10 @@
                                 <a href="javascript: void(0);" class="has-arrow waves-effect"><i
                                         class="mdi mdi-format-list-bulleted-type"></i><span>Categorias</span></a>
                                 <ul class="sub-menu" aria-expanded="false">
-                                    <li><a href="ui-buttons.html">Tecnologia</a></li>
-                                    <li><a href="ui-cards.html">Electrodomesticos</a></li>
+                                    <li><a href="Belleza y Cuidado Personal.php">Belleza y Cuidado Personal</a></li>
                                     <li><a href="ui-carousel.html">Hogar y Muebles</a>
                                     <li><a href="ui-embeds.html">Deportes y Fitness</a>
-                                    <li><a href="ui-general.html">Belleza y Cuidado Personal</a></li>
+                                    <li><a href="ui-general.html">Tecnologia</a></li>
                                     <li><a href="ui-grid.html">Herramientas</a></li>
                                     <li><a href="ui-media-objects.html">Construccion</a></li>
                                     <li><a href="ui-modals.html">Juegos y Juguetes</a></li>
@@ -327,7 +326,7 @@
 
                             <li>
                                 <a href="javascript: void(0);" class="has-arrow waves-effect"><i
-                                        class="mdi mdi-book"></i><span>Catalogo Productos</span></a>
+                                        class="mdi mdi-book"></i><span>Catalogos</span></a>
                                 <ul class="sub-menu" aria-expanded="false">
                                     <li><a href="icons-materialdesign.html">Bata</a></li>
                                     <li><a href="icons-fontawesome.html">Cyzone</a></li>
@@ -392,25 +391,27 @@
             <div class="main-content">
 
                 <div class="page-content">
-                    <div class="container-fluid">
+                    <div class="container-fluid row">
 
                         <!-- start page title -->
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="page-title-box d-flex align-items-center justify-content-between">
-                                    <h4 class="mb-0 font-size-18">Inicio</h4>
-
-                                    <div class="page-title-right">
-                                        <ol class="breadcrumb m-0">
-                                            <li class="breadcrumb-item"><a href="javascript: void(0);">Paginas</a></li>
-                                            <li class="breadcrumb-item active">Inicio</li>
-                                        </ol>
-                                    </div>
-
-                                </div>
+                    <?php 
+                    for ($i=0; $i < 10 ; $i++) { ?>
+                         <div class="col-md-3">
+                            <div class="card">
+                                <img class="card-img-top img-fluid" src="imagenes/brochas.jpg" alt="vvvbgfuy">
+                                <h5 class="card-title">Brocha</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eum dolorem iure rem minus tempora, amet ipsa debitis pariatur, velit recusandae maxime voluptatibus consectetur distinctio assumenda expedita voluptas laboriosam nemo.</p>
                             </div>
-                        </div>
-                        <!-- end page title -->
+                         </div>
+                        
+                  <?php  }
+                    ?>
+                       
+
+                        
+
+
+
 
                     </div> <!-- container-fluid -->
                 </div>
