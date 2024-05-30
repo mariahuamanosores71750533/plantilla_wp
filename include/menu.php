@@ -310,9 +310,10 @@
 -->
             <li>
                 <a href="javascript: void(0);" class="has-arrow waves-effect"><i
-                        class="mdi mdi-phone"></i><span> Contactenos</span></a>
+                        class="mdi mdi-phone"></i><span> Informese</span></a>
                 <ul class="sub-menu" aria-expanded="true">
                     <li><a href="preguntas_frecuentes.php">Preguntas Frecuentes</a></li>
+                    <li><a href="nosotros.php">sobre nosotros</a></li>
                     <li><a href="contactanos.php">Contactanos</a></li>
 
                     <li><a href="javascript: void(0);" class="has-arrow">Otros</a>
